@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     
 		<title>The Gaming Place</title>
-		<?php  //echo base_url(); ?>
+
 		<!-- Bootstrap core CSS -->
-		<link href="c:/wamp/www/LearningPHP/P5GamingPlace/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
-		<link href="c:/wamp/www/LearningPHP/P5GamingPlace/assets/css/custom.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>

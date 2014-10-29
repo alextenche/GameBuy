@@ -2,9 +2,12 @@
 
 class Products extends CI_Controller {
 
-	public function index()
-	{
-		$data['name'] = 'Mike';
+	public function index(){
+		// get all products
+		$data['products'] = $this->Product_model->get_products();
+
+
+
 		// load view
 		$data['main_content'] = 'products';
 		$this->load->view('layouts/main', $data );
