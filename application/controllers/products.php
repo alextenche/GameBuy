@@ -4,7 +4,7 @@ class Products extends CI_Controller {
 
 	public function index(){
 		// get all products
-		$data['products'] = $this->Product_model->get_products();
+		$data['products'] = $this->product_model->get_products();
 
 
 
