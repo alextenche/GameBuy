@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 29 Oct 2014 la 17:38
+-- Generation Time: 08 Noi 2014 la 10:18
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -85,12 +85,12 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`id`, `category`, `title`, `description`, `image`, `price`) VALUES
-(1, 1, 'Destiny', 'great game', 'game1.jpg', '59.99'),
-(2, 1, 'Call od Duty Gohts', 'amazing game', 'game2.jpg', '59.99'),
-(3, 5, 'Watch Dogs', 'Very nice game :)', 'game3.jpg', '49.99'),
-(4, 1, 'Sniper Elite', 'about snipers of course', 'game4.jpg', '49.99'),
-(5, 2, 'Batman', '', 'game5.jpg', '59.99'),
-(6, 2, 'Shadow of Mador', 'nice', 'game6.jpg', '49.99');
+(1, 1, 'Destiny', ' In Destiny (from the creators of Halo) you are a Guardian of the last city on Earth. You are able to wield incredible power. Explore the ancient ruins of our solar system, from the vast dunes of Mars to the lush jungles of Venus. Defeat Earth’s enemies. Reclaim all that we have lost. Become legend. Embark on an epic action adventure with rich cinematic storytelling where you unravel the mysteries of our universe and reclaim what we lost at the fall of our Golden Age. The next evolution of the first-person action genre that promises to provide an unprecedented combination of storytelling, cooperative, competitive, and public gameplay, and personal activities that are all woven into an expansive, persistent online world. Venture out alone or join up with friends. The choice is yours. Personalize and upgrade every aspect of how you look and fight with a nearly limitless combination of armor, weapons, and visual customizations. Take your upgraded character into every mode, including campaign, cooperative, social, public, and competitive multiplayer.', 'game1.jpg', '59.99'),
+(2, 1, 'Call of Duty Gohts', 'This installment in the Call of Duty series features a fresh dynamic where players are on the side of a crippled nation fighting not for freedom, or liberty, but simply to survive. 10 years after a devastating mass event, the nation''s borders and the balance of global power have been permanently changed. As what''s left of the nation''s Special Operations forces, a mysterious group known only as "Ghosts" leads the fight back against a newly emerged, technologically-superior global power. In Call of Duty: Ghosts you don''t just create a class, you create a soldier. Choose the head, body type, head-gear and equipment, and you can even create a female soldier for the first time. With over 20,000 possible combinations, you can create the soldier you''ve always wanted. And each soldier you create will also have his or her own load outs', 'game2.jpg', '59.99'),
+(3, 5, 'Watch Dogs', 'In the modern uber-connected world, Chicago maintains the nation''s most advanced and integrated computer system – one which controls almost every facet of city technology and maintains critical information on all of the city''s residents. Assume the role of Aiden Pearce, a notorious hacker and former thug, whose criminal history lead to a violent family tragedy. Now on the hunt for those people who have hurt your family, you will be able to monitor and hack all who surround you while manipulating the city''s systems to stop traffic lights, download personal and private information, manipulate the electrical grid and more. Use the entire city of Chicago as your personal weapon and exact your signature brand of revenge.', 'game3.jpg', '49.99'),
+(4, 1, 'Sniper Elite', 'Sniper Elite 3 continues the story of elite OSS sniper Karl Fairburne during World War II. The title takes players to the unforgiving yet exotic terrain of WWII’s North Africa conflict in a battle against a deadly new foe.', 'game4.jpg', '49.99'),
+(5, 2, 'Batman', 'Batman confronts the ultimate threat against the city he has been sworn to protect. The Scarecrow returns to congeal an imposing array of super villains, including The Penguin, Two-Face and Harley Quinn, to summarily destroy The Dark Knight. The game introduces Rocksteady''s uniquely-designed imagining of the Batmobile drivable for the first time in the franchise. Batman: Arkham Knight offers gamers a complete Batman experience as they rip through the streets and soar across the skyline of the iconic Gotham City.', 'game5.jpg', '59.99'),
+(6, 2, 'Shadow of Mador', ' Fight your way through Mordor and reveal the truth of the spirit that compels you, discover the origins of the Rings of Power, build your legend and ultimately confront the evil of Sauron in this new story of Middle-earth.', 'game6.jpg', '49.99');
 
 -- --------------------------------------------------------
 
