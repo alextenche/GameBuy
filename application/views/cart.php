@@ -1,5 +1,5 @@
 <?php if($this->cart->contents()) : ?>
-	<form method="post" action="cart/process">
+	<form method="post" action="<?php echo base_url(); ?>cart/process">
 		<table class="table table-striped">
 			<tr>
 				<th>Quantity</th>
@@ -36,6 +36,13 @@
 		</table>
 		<br>
 		
+		
+		<?php if(!$this->session->userdata('logged_in')) : ?>
+			<p><a href="<?php echo base_url(); ?>users/register" class="btn btn-primary">Create An Acount</a></p>
+			<p><em>You must log in to make purchases</em></p>
+		<?php else : ?>
+		
+		
 		<h3>Shipping Info</h3>
 		<div class="form-group">
 			<label>Address</label>
@@ -58,6 +65,7 @@
 			<input type="text" class="form-control" name="zipcode" />
 		</div>
 		<p><button class="btn btn-primary" type="submit" name="submit">Checkout</button></p>	
+		<?php endif; ?>
 	</form>	
 				
 <?php else : ?>

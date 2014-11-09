@@ -16,6 +16,18 @@
 */
 $config['base_url']	= 'http://localhost/GamingPlace/';
 
+// custom config
+
+$config['shipping'] = 4.99;
+$config['tax'] = 2.99;
+$config['paypal_mode'] = 'live';
+$config['paypal_api_username'] = '';
+$config['paypal_api_password'] = '';
+$config['paypal_api_signature'] = '';
+$config['paypal_api_currency_code'] = 'USD';
+$config['paypal_api_return_url'] = 'http://localhost/GamingPlace/cart/process';
+$config['paypal_api_cancel_url'] = 'http://localhost/GamingPlace/cart/cancel';
+
 /*
 |--------------------------------------------------------------------------
 | Index File

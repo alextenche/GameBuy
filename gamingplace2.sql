@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 08 Noi 2014 la 20:33
+-- Generation Time: 09 Noi 2014 la 18:26
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -102,10 +102,10 @@ INSERT INTO `products` (`id`, `category`, `title`, `description`, `image`, `pric
 -- --------------------------------------------------------
 
 --
--- Structura de tabel pentru tabelul `user`
+-- Structura de tabel pentru tabelul `users`
 --
 
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(100) NOT NULL,
   `last_name` varchar(100) NOT NULL,
@@ -114,14 +114,15 @@ CREATE TABLE IF NOT EXISTS `user` (
   `password` varchar(100) NOT NULL,
   `join_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
--- Salvarea datelor din tabel `user`
+-- Salvarea datelor din tabel `users`
 --
 
-INSERT INTO `user` (`id`, `first_name`, `last_name`, `email`, `username`, `password`, `join_date`) VALUES
-(1, 'Brad', 'Travesy', 'techguy@gmail.com', 'brad', 'termopane', '2014-10-20 07:46:33');
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `username`, `password`, `join_date`) VALUES
+(1, 'Brad', 'Travesy', 'techguy@gmail.com', 'brad', 'termopane', '2014-10-20 07:46:33'),
+(2, 'blade', 'blade', 'alex.tenche@gmail.com', 'blade', 'a46501298d50abdaab072f2635b6f66b', '2014-11-09 16:13:53');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
