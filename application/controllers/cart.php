@@ -7,11 +7,12 @@ class Cart extends CI_Controller{
 	public $total = 0;
 	public $grand_total;
 	
+	
 	// cart index
 	public function index(){
 		// load view
 		$data['main_content'] = 'cart';
-		$this->load->view('layout/main', $data);
+		$this->load->view('layouts/main', $data);
 	}
 	
 	
@@ -32,5 +33,15 @@ class Cart extends CI_Controller{
 		$this->cart->insert($data);
 		
 		redirect('products');
+	}
+	
+	
+	// update cart
+	public function update($in_cart = null){
+		$data = $_POST;
+		$this->cart->update($data);
+		
+		// show cart page
+		redirect('cart', 'refresh');
 	}
 }
